@@ -2,7 +2,7 @@ import requests
 
 # تجاهل تحذيرات شهادة SSL (لأن الهدف HTTPS محلي)
 import urllib3
-urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning) 
 
 target_url = "https://192.168.1.123/dvwa/login.php"
 
